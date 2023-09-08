@@ -64,6 +64,28 @@ nav a:hover {
   padding-top: 72px;
 }
 
+footer {
+  border-top: 4px solid black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(248, 222, 187);
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+
+.leftFooter {
+  margin: 5px;
+}
+
+.rightFooter {
+  display: flex;
+  justify-content: flex-end; /* This will push the content to the right */
+  align-items: center; /* Vertically align content */
+  padding: 10px; /* Add padding as needed */
+}
+
 .article-list-item {
   text-decoration: none;
   color: black;
@@ -125,10 +147,6 @@ p {
 .listBold {
   font-weight: 500;
 }
-.welcomeNote,
-.aboutList,
-.aboutMe,
-.workList,
-.paragraph {
-  text-align: justify;
+.email {
+  font-weight: bolder;
 }

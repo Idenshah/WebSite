@@ -6,6 +6,7 @@ import AboutPage from "./Pages/AboutPage";
 import ProjectsListPage from "./Pages/ProjectsListPage";
 import ProjectPage from "./Pages/ProjectPage";
 import NotFoundPage from "./Pages/NotFoundPage";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

@@ -17,7 +17,7 @@ const projects = [
         <button
           onClick={() => window.open("https://iden-pokemon.netlify.app/")}
         >
-          Open Website
+          Open Project
         </button>
       </div>
     ),
@@ -43,7 +43,7 @@ const projects = [
             window.open("https://iden-astronomy-daily-picture.netlify.app")
           }
         >
-          Open Website
+          Open Project
         </button>
       </div>
     ),
