@@ -82,9 +82,9 @@ footer {
 
 .rightFooter {
   display: flex;
-  justify-content: flex-end; /* This will push the content to the right */
-  align-items: center; /* Vertically align content */
-  padding: 10px; /* Add padding as needed */
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
 }
 
 .home,
