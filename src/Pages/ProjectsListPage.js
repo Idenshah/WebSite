@@ -4,8 +4,10 @@ import ProjectList from "../components/ProjectList";
 const ProjectsListPage = () => {
   return (
     <>
-      <h1>Projects</h1>
-      <ProjectList projects={projects}></ProjectList>
+      <div className="projectListpage">
+        <h1>Projects</h1>
+        <ProjectList projects={projects}></ProjectList>
+      </div>
     </>
   );
 };
