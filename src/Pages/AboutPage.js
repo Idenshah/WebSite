@@ -100,10 +100,6 @@ const AboutPage = () => {
             equipment for 15 wells in Phase 14 of South Pars, with a total value
             of €4,097,091.
           </dl>
-          <dl>
-            • Arranged meetings with contractors to discuss upcoming operations
-            and submit requests for estimates.
-          </dl>
         </div>
         <h4>Operation and Warehouse Manager</h4>
         <dl>

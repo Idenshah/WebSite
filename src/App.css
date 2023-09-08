@@ -92,6 +92,7 @@ footer {
 .projectListpage,
 .project {
   padding: 5px;
+  margin-bottom: 50px;
 }
 
 .article-list-item {
