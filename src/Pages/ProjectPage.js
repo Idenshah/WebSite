@@ -14,13 +14,15 @@ const ProjectPage = () => {
 
   return (
     <>
-      <h1>{project.title}</h1>
-      {project.content.map((paragraph, i) => (
-        <p key={i} className="paragraph">
-          {paragraph}
-        </p>
-      ))}
-      <p>{project.link}</p>
+      <div className="project">
+        <h1>{project.title}</h1>
+        {project.content.map((paragraph, i) => (
+          <p key={i} className="paragraph">
+            {paragraph}
+          </p>
+        ))}
+        <p>{project.link}</p>
+      </div>
     </>
   );
 };
