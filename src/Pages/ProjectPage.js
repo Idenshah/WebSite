@@ -21,7 +21,10 @@ const ProjectPage = () => {
             {paragraph}
           </p>
         ))}
-        <p>{project.link}</p>
+        <div className="projectLinks">
+          <div className="projectDisplay">{project.link}</div>
+          <div className="projectCode">{project.Code}</div>
+        </div>
       </div>
     </>
   );

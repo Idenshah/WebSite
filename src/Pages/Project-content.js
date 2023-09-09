@@ -21,6 +21,13 @@ const projects = [
         </button>
       </div>
     ),
+    Code: (
+      <div className="codeGit">
+        <a href="https://github.com/Idenshah/Project-Pokemon">
+          <img src="/image/github.png" alt="git-code" />
+        </a>
+      </div>
+    ),
   },
   {
     name: "AstronomyPictures",
@@ -45,6 +52,13 @@ const projects = [
         >
           Open Project
         </button>
+      </div>
+    ),
+    Code: (
+      <div className="codeGit">
+        <a href="https://github.com/Idenshah/Daily-Picture">
+          <img src="/image/github.png" alt="git-code" />
+        </a>
       </div>
     ),
   },

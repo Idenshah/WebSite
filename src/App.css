@@ -20,6 +20,15 @@ button:hover {
   background-color: rgb(67, 65, 65);
 }
 
+.projectCode {
+  margin-left: 20px;
+  transition: transform 0.3s;
+}
+
+.projectCode:hover {
+  transform: scale(1.3);
+}
+
 h3,
 h4 {
   margin-bottom: 0;
@@ -95,6 +104,9 @@ footer {
   margin-bottom: 50px;
 }
 
+.projectLinks {
+  display: flex;
+}
 .article-list-item {
   text-decoration: none;
   color: black;
