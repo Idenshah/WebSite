@@ -23,7 +23,8 @@ const ProjectPage = () => {
         ))}
         <div className="projectLinks">
           <div className="projectDisplay">{project.link}</div>
-          <div className="projectCode">{project.Code}</div>
+          <div className="projectCode">{project.code}</div>
+          <div className="lightHouse">{project.lighthouse}</div>
         </div>
       </div>
     </>

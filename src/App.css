@@ -25,6 +25,13 @@ button:hover {
   transition: transform 0.3s;
 }
 
+.lightHouse {
+  margin-left: 20px;
+  font-weight: bolder;
+  padding: auto;
+  color: rgb(1, 1, 1);
+}
+
 .projectCode:hover {
   transform: scale(1.3);
 }
@@ -180,6 +187,7 @@ p {
 
 .welcomeNote,
 .aboutMe,
-.aboutList {
+.aboutList,
+.paragraph {
   color: hsl(0, 0%, 17%);
 }

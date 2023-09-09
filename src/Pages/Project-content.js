@@ -21,11 +21,16 @@ const projects = [
         </button>
       </div>
     ),
-    Code: (
+    code: (
       <div className="codeGit">
         <a href="https://github.com/Idenshah/Project-Pokemon">
           <img src="/image/github.png" alt="git-code" />
         </a>
+      </div>
+    ),
+    lighthouse: (
+      <div className="lighthouseImage">
+        <a href="/image/PokemonLighthouse.png">lightHouse Report</a>
       </div>
     ),
   },
@@ -54,11 +59,16 @@ const projects = [
         </button>
       </div>
     ),
-    Code: (
+    code: (
       <div className="codeGit">
         <a href="https://github.com/Idenshah/Daily-Picture">
           <img src="/image/github.png" alt="git-code" />
         </a>
+      </div>
+    ),
+    lighthouse: (
+      <div className="lighthouseImage">
+        <a href="/image/AstronomyLighthouse.png">lightHouse Report</a>
       </div>
     ),
   },
