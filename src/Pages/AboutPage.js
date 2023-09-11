@@ -1,3 +1,4 @@
+import React from "react";
 const AboutPage = () => {
   return (
     <>
@@ -8,6 +9,15 @@ const AboutPage = () => {
           offering insights into the path that led me to the dynamic field of
           web development.
         </p>
+        <div className="downloadCV">
+          <a
+            href="https://drive.google.com/u/0/uc?id=1t_l7E_GzHAunwC7KV3Mbu-WI88-Q9q57&export=download"
+            download
+          >
+            <img src="/image/downloadCV.png" alt="CV download link" />
+          </a>
+        </div>
+
         <h3>Program Skills</h3>
         <p className="aboutMe">
           In my exploration of web development, I've nurtured a versatile skill
@@ -22,7 +32,7 @@ const AboutPage = () => {
           various operating systems, including Windows, Raspberry Pi, and Linux.
           In terms of data organization, I excel with MySQL. These skills
           showcase my commitment to continuous learning and hands-on experience,
-          preparing me for the ever-evolving field of web development
+          preparing me for the ever-evolving field of web development.
         </p>
         <h3>Programming Languages and Platforms</h3>
         <ul className="aboutList">
