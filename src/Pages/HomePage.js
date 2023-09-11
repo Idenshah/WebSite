@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <>
@@ -6,7 +7,7 @@ const HomePage = () => {
         <p className="welcomeNote">
           I'm thrilled to have you here as I embark on an exciting journey into
           the world of web development and internet applications. 🌐Let me
-          introduce myself: I'm Iden ,and currently enrolled in the Web
+          introduce myself: I'm Iden, and currently enrolled in the Web
           Development & Internet Applications program at Algonquin College,
           Ottawa. My passion for this field knows no bounds, and I'm constantly
           amazed by the possibilities it offers.
@@ -27,14 +28,14 @@ const HomePage = () => {
         </p>
         <h3>Discover My Story</h3>
         <p className="welcomeNote">
-          If you're curious to know more about me, head over to the "About"
-          page. There, you'll find my resume and a brief biography that delves
-          into my background and aspirations.
+          If you're curious to know more about me, head over to the
+          <Link to="/about"> About</Link> page. There, you'll find my resume and
+          a brief biography that delves into my background and aspirations.
         </p>
         <p className="welcomeNote">
-          Thank you for joining me on this exciting journey. Feel free to
-          explore, be inspired, and get in touch. Let's connect and explore the
-          endless possibilities of the web development universe together!
+          Please don't hesitate to reach out to me if you have any questions or
+          if there's anything I can assist you with. I'm here and eager to
+          connect.
         </p>
       </div>
     </>

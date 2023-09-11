@@ -11,12 +11,9 @@ const Footer = () => {
         </Link>
       </div>
       <div className="rightFooter">
-        <div>
-          <span className="email">Email:</span>
-          <a href="mailto:Shah0373@algonquinlive.com">
-            Shah0373@algonquinlive.com
-          </a>
-        </div>
+        <Link to="mailto:Shah0373@algonquinlive.com">
+          <img src="/image/email.png" alt="email" />
+        </Link>
       </div>
     </footer>
   );

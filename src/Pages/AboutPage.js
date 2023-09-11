@@ -8,7 +8,7 @@ const AboutPage = () => {
           offering insights into the path that led me to the dynamic field of
           web development.
         </p>
-        <h3>Program-Related Skills</h3>
+        <h3>Program Skills</h3>
         <p className="aboutMe">
           In my exploration of web development, I've nurtured a versatile skill
           set that equips me to turn concepts into digital realities. I hold
@@ -56,9 +56,9 @@ const AboutPage = () => {
           Administration , Networking Operating Systems , Graphics Technologies;
         </dl>
         <dl className="aboutList">
-          <span className="listBold"> Achievement: </span>I'm honored to have
-          been listed on the Dean's List consistently throughout my academic
-          career
+          <span className="listBold"> Achievement: </span>I feel privileged to
+          have maintained a consistent presence on the Dean's Honors list
+          throughout my academic journey.
         </dl>
         <h4>
           Master of Science in Petroleum Drilling and Extraction Engineering
@@ -86,7 +86,6 @@ const AboutPage = () => {
             • Monitoring and upholding procedures to guarantee precise inventory
             control.
           </dl>
-          <dl>• Addressing any disparities found in inventory information.</dl>
           <dl>
             • Collaborating with management to report inventory-related
             concerns.
@@ -97,8 +96,7 @@ const AboutPage = () => {
           <dl>Global Wellbore Solution, (Tehran, Iran), Sep 2018 - Sep 2022</dl>
           <dl>
             • Managed procurement and logistics for drilling and remedial
-            equipment for 15 wells in Phase 14 of South Pars, with a total value
-            of €4,097,091.
+            equipment for 15 wells, with a total value of €4,097,091.
           </dl>
         </div>
         <h4>Operation and Warehouse Manager</h4>
@@ -108,9 +106,7 @@ const AboutPage = () => {
         <div className="workList">
           <dl>
             • Oversaw procurement and logistics for drilling and remedial
-            equipment for 39 wells, including 21 wells in Phase 12, 15 wells in
-            Phase 19 of South Pars, and 3 wells in the Farzad A project, with a
-            total value of €23,250,000.
+            equipment for 39 wells, with a total value of €23,250,000.
           </dl>
           <dl>
             • Developed and delivered training courses aimed at enhancing skills
