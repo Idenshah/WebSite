@@ -72,11 +72,6 @@ const projects = [
       </div>
     ),
   },
-  {
-    name: "Project3",
-    title: "Title",
-    content: [`Line1`, `Line2`, `Line3`],
-  },
 ];
 
 export default projects;
