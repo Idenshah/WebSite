@@ -72,6 +72,39 @@ const projects = [
       </div>
     ),
   },
+  {
+    name: "Cuisine Table",
+    title: " Cuisine Table ",
+    content: [
+      `Cuisine Table Web Project: A Team Effort in Web Development Excellence.
+       Explore the technical brilliance behind Cuisine Table, a collaborative effort by a group of
+       dedicated web developers. Dive into the HTML and CSS craftsmanship that brings visually stunning
+       web pages to life. Discover the dynamic capabilities of JavaScript, powering an interactive login page.
+       Plus, experience our API integration, designed to provide users with culinary insights.
+       Witness the synergy of teamwork and web development expertise in action!`,
+    ],
+    link: (
+      <div className="LinkWeb">
+        <button
+          onClick={() => window.open("https://cuisine-table.netlify.app/")}
+        >
+          Open Project
+        </button>
+      </div>
+    ),
+    code: (
+      <div className="codeGit">
+        <a href="https://github.com/Idenshah/CuisineTable">
+          <img src="/image/github.png" alt="git-code" />
+        </a>
+      </div>
+    ),
+    lighthouse: (
+      <div className="lighthouseImage">
+        <a href="/image/CuisineTable.png">lightHouse Report</a>
+      </div>
+    ),
+  },
 ];
 
 export default projects;
