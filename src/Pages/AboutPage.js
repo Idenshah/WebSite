@@ -88,6 +88,12 @@ const AboutPage = () => {
         <dl className="aboutList">
           My graduation project was related to bit selection and optimization.
         </dl>
+        <h3>Certificate</h3>
+        <div className="certification">
+          <dl>• JavaScript Essential Training</dl>
+          <dl>• React: Creating and Hosting a Full-Stack Site</dl>
+          <dl>• Verified International Academic Qualifications (WES)</dl>
+        </div>
         <h3>Work Experience</h3>
         <h4>Perpetual Inventory Clerk</h4>
         <div className="workList">
