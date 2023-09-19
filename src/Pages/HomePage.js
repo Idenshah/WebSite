@@ -6,7 +6,7 @@ const HomePage = () => {
         <h1>Welcome to My Web World!</h1>
         <p className="welcomeNote">
           I'm thrilled to have you here as I embark on an exciting journey into
-          the world of web development and internet applications. 🌐Let me
+          the world of web development and internet applications. 🌐 Let me
           introduce myself: I'm Iden, and currently enrolled in the Web
           Development & Internet Applications program at Algonquin College,
           Ottawa. My passion for this field knows no bounds, and I'm constantly
