@@ -38,11 +38,15 @@ const AboutPage = () => {
         <ul className="aboutList">
           <li>
             <span className="listBold">Programming Languages: </span>{" "}
-            JavaScript, C#, Python
+            JavaScript, C#, ASP.net (Razor page), PHP, and Python
           </li>
           <li>
             <span className="listBold"> Markup and Styling Languages: </span>
             HTML/CSS
+          </li>
+          <li>
+            <span className="listBold"> Front-End Framework: </span>
+            Bootstrap, React
           </li>
           <li>
             <span className="listBold"> Query Language: </span>
