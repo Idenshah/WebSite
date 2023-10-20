@@ -20,19 +20,22 @@ const AboutPage = () => {
 
         <h3>Program Skills</h3>
         <p className="aboutMe">
-          In my exploration of web development, I've nurtured a versatile skill
-          set that equips me to turn concepts into digital realities. I hold
-          proficiency in programming languages like JavaScript, C#, and Python,
-          enabling the creation of interactive web applications, adaptable
-          software solutions, and engaging user interfaces. My expertise extends
-          to HTML/CSS, allowing the crafting of visually appealing and
-          well-structured web content. I'm also well-versed in the efficient
-          management of data using SQL, which equips me to handle relational
-          databases effectively. I possess the flexibility to work across
-          various operating systems, including Windows, Raspberry Pi, and Linux.
-          In terms of data organization, I excel with MySQL. These skills
-          showcase my commitment to continuous learning and hands-on experience,
-          preparing me for the ever-evolving field of web development.
+          I've cultivated a diverse skill set that empowers me to transform
+          ideas into digital realities. My proficiency encompasses a wide array
+          of programming languages, including JavaScript, C#, ASP.NET (Razor
+          Page), PHP, and Python, enabling me to create interactive web
+          applications, versatile software solutions, and captivating user
+          interfaces. I also specialize in crafting visually appealing and
+          structurally sound web content using HTML and CSS.
+        </p>
+        <p className="aboutMe">
+          To enhance the user experience and streamline development, I leverage
+          the React JavaScript library and the Bootstrap front-end framework.
+          This combination allows me to build dynamic and responsive web
+          applications efficiently. In terms of data management, I am adept at
+          working with SQL for efficient handling of relational databases. My
+          expertise extends to the use of MySQL as a database management system,
+          ensuring data organization and retrieval are seamless and efficient.
         </p>
         <h3>Programming Languages and Platforms</h3>
         <ul className="aboutList">
@@ -45,12 +48,16 @@ const AboutPage = () => {
             HTML/CSS
           </li>
           <li>
+            <span className="listBold"> JavaScript: </span>
+            React
+          </li>
+          <li>
             <span className="listBold"> Front-End Framework: </span>
-            Bootstrap, React
+            Bootstrap
           </li>
           <li>
             <span className="listBold"> Query Language: </span>
-            SQL (Structured Query Language)
+            SQL
           </li>
           <li>
             <span className="listBold"> Operating Systems: </span>
@@ -60,38 +67,31 @@ const AboutPage = () => {
             <span className="listBold"> Database Management System: </span>
             MySQL
           </li>
+          <li>
+            <span className="listBold"> Design and Graphic Software: </span>
+            Figma, Illustrator, Photoshop
+          </li>
         </ul>
         <h3>Education</h3>
         <h4>Web Development & Internet Applications Diploma</h4>
         <li>Algonquin College, (Ottawa, Canada), 2023 - Present</li>
         <dl className="aboutList">
-          <span className="listBold"> Chosen Academic Course works: </span>Web
-          programming , Web Design , Computer Programming, Database Design and
-          Administration , Networking Operating Systems , Graphics Technologies;
+          <span className="listBold"> Chosen Academic Course works: </span>
+          Web programming (HTML, CSS, JavaScript, C# and ASP.net Razor page),
+          Web Applications Development (PHP), Web Design, Computer Programming
+          (Python), Database Design and Administration, Networking Operating
+          Systems, Graphics Technologies.
         </dl>
         <dl className="aboutList">
           <span className="listBold"> Achievement: </span>I feel privileged to
           have maintained a consistent presence on the Dean's Honors list
           throughout my academic journey.
         </dl>
-        <h4>
-          Master of Science in Petroleum Drilling and Extraction Engineering
-        </h4>
-        <li>
-          Science and Research Azad University, (Tehran, Iran), 2011 - 2014
-        </li>
-        <dl>
-          My graduation project was related to a feasibility study of managed
-          pressure drilling (MPD) technique for the Parsi Oilfield.
-        </dl>
 
         <h4>
           Bachelor of Science in Petroleum Drilling and Extraction Engineering
         </h4>
-        <li>Omidiyeh Azad University, (Khuzestan, Iran), 2005 - 2009</li>
-        <dl className="aboutList">
-          My graduation project was related to bit selection and optimization.
-        </dl>
+        <li>Azad University, (Khuzestan, Iran)</li>
         <h3>Certificate</h3>
         <div className="certification">
           <dl>• JavaScript Essential Training</dl>
@@ -111,45 +111,100 @@ const AboutPage = () => {
             concerns.
           </dl>
         </div>
-        <h4>Operations Manager</h4>
+        <h4>Operation Data Analyst</h4>
         <div className="workList">
           <dl>Global Wellbore Solution, (Tehran, Iran), Sep 2018 - Sep 2022</dl>
           <dl>
-            • Managed procurement and logistics for drilling and remedial
-            equipment for 15 wells, with a total value of €4,097,091.
+            • Aggregate data from multiple sources within the operation,
+            encompassing databases, logs, sensors, and external APIs.
+          </dl>
+          <dl>
+            • Examine data to discover trends, patterns, and irregularities that
+            could potentially influence the operation's effectiveness.
           </dl>
         </div>
-        <h4>Operation and Warehouse Manager</h4>
+        <h4>Operation Coordinator</h4>
         <dl>
           Certified Oilfield Rentals, (Kish Island, Iran), Jan 2017 - Mar 2018
         </dl>
         <div className="workList">
           <dl>
-            • Oversaw procurement and logistics for drilling and remedial
-            equipment for 39 wells, with a total value of €23,250,000.
+            • Ensured high quality and functionality of provided equipment for
+            efficient operations.
           </dl>
-          <dl>
-            • Developed and delivered training courses aimed at enhancing skills
-            of fellow staff members.
-          </dl>
-        </div>
-        <h4>Workshop Supervisor and Drilling Engineer</h4>
-        <dl>
-          Certified Oilfield Rentals, (Kish Island, Iran), May 2016 - Jan 2017
-        </dl>
-        <div className="workList">
-          <dl>
-            • Ensured high quality and functionality of provided drilling and
-            fishing/remedial equipment for efficient operations.
-          </dl>
-        </div>
-        <h4>Drilling Engineer</h4>
-        <dl>Certified Oilfield Rentals, (Tehran, Iran), Jun 2013 - May 2016</dl>
-        <div className="workList">
           <dl>
             • Observed and evaluated the company's services, offering feedback
             to top management regarding outcomes and adherence to company
             regulations in implementing these services.
+          </dl>
+        </div>
+        <h3>Academic Projects</h3>
+        <div className="academicProjects">
+          <dl>
+            • Using JavaScript, HTML, and CSS, to create a Pokedex by
+            dynamically sorting Pokémon alphabetically and categorizing it by
+            type.
+          </dl>
+          <dl>
+            • Design and develop a web application using JavaScript, HTML, and
+            CSS to allow users to request Astronomy Pictures of the Day by date
+            using the NASA APOD API.
+          </dl>
+          <dl>
+            • Creating a website utilizing JavaScript, HTML, and CSS enables
+            users to search for various food recipes.
+          </dl>
+          <dl>
+            • Created a student registration project using ASP.NET, enabling
+            users to enter their names and select their study programs.
+            Depending on the program's term requirements, users can then choose
+            their courses.
+          </dl>
+          <dl>
+            • Developed a PHP web application with session-based data input,
+            validation, and regex checks for accurate and secure data storage,
+            including customer details. The application performs banking-related
+            calculations.
+          </dl>
+          <dl>
+            • Created an ASP.NET Razor Pages application for student course
+            registration, grade input, and user-friendly sorting by columns.
+            Utilized secure session management for data storage.
+          </dl>
+          <dl>• Developed a bank console application using C#.</dl>
+          <dl>
+            • Created a Python program to calculate cone volumes, generate
+            secure passwords, and count vowel characters in inputs.
+          </dl>
+        </div>
+        <h3>Additional Qualifications</h3>
+        <div className="qualifications">
+          <dl>
+            • Proficient in Microsoft Office Suite, with a strong focus on Word,
+            Excel, PowerPoint, and Outlook.
+          </dl>
+          <dl>
+            • Proficient in using Git for code version control and facilitating
+            collaborative work, enhancing code/data management, and sharing.
+          </dl>
+          <dl>
+            • The ability to collaborate successfully with diverse teams in
+            demanding situations, resulting in the consistent achievement of
+            project objectives.
+          </dl>
+          <dl>
+            • Strong communication and interpersonal skills in working with team
+            managers, supervisors, and colleagues from diverse backgrounds and
+            disciplines.
+          </dl>
+          <dl>
+            • Utilize efficient time management techniques to effectively
+            schedule tasks and ensure prompt completion of work within specified
+            deadlines.
+          </dl>
+          <dl>
+            • Effective problem-solving abilities to address customer concerns
+            and ensure timely resolution.
           </dl>
         </div>
       </div>
