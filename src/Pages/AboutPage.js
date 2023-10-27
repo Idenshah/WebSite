@@ -96,6 +96,10 @@ const AboutPage = () => {
         <div className="certification">
           <dl>• JavaScript Essential Training</dl>
           <dl>• React: Creating and Hosting a Full-Stack Site</dl>
+          <dl>• Level Up: PHP</dl>
+          <dl>• Hands-On Introduction: ASP.NET Razor Pages</dl>
+          <dl>• C# Refactoring Tips and Tricks</dl>
+          <dl>• Introduction to Career Skills in Software Development</dl>
           <dl>• Verified International Academic Qualifications (WES)</dl>
         </div>
         <h3>Work Experience</h3>
