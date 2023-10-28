@@ -65,7 +65,7 @@ const AboutPage = () => {
           </li>
           <li>
             <span className="listBold"> Database Management System: </span>
-            MySQL
+            MySQL, MongoDB
           </li>
           <li>
             <span className="listBold"> Design and Graphic Software: </span>
