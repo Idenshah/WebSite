@@ -100,6 +100,7 @@ const AboutPage = () => {
           <dl>• Hands-On Introduction: ASP.NET Razor Pages</dl>
           <dl>• C# Refactoring Tips and Tricks</dl>
           <dl>• Introduction to Career Skills in Software Development</dl>
+          <dl>• Programming Foundations: Fundamentals</dl>
           <dl>• Verified International Academic Qualifications (WES)</dl>
         </div>
         <h3>Work Experience</h3>
