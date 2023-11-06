@@ -11,7 +11,7 @@ const AboutPage = () => {
         </p>
         <div className="downloadCV">
           <a
-            href="https://drive.google.com/uc?export=download&id=19NAFLnLeTo_2SDNrX_VqRtpSDUJ1KppB"
+            href="https://drive.google.com/uc?export=download&id=17R4op8xz9sTiMK368sKg4ufaqqD693Xs"
             download
           >
             <img src="/image/downloadCV.png" alt="CV download link" />
