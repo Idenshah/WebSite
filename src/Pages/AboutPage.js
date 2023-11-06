@@ -91,16 +91,18 @@ const AboutPage = () => {
         <h4>
           Bachelor of Science in Petroleum Drilling and Extraction Engineering
         </h4>
-        <li>Azad University, (Khuzestan, Iran)</li>
+        <li>Azad University</li>
         <h3>Certificate</h3>
         <div className="certification">
           <dl>• JavaScript Essential Training</dl>
           <dl>• React: Creating and Hosting a Full-Stack Site</dl>
           <dl>• Level Up: PHP</dl>
           <dl>• Hands-On Introduction: ASP.NET Razor Pages</dl>
+          <dl>• ASP.NET Core: Razor Pages</dl>
           <dl>• C# Refactoring Tips and Tricks</dl>
           <dl>• Introduction to Career Skills in Software Development</dl>
           <dl>• Programming Foundations: Fundamentals</dl>
+          <dl>• Programming Foundations: Beyond the Fundamentals</dl>
           <dl>• Verified International Academic Qualifications (WES)</dl>
         </div>
         <h3>Work Experience</h3>
@@ -118,7 +120,7 @@ const AboutPage = () => {
         </div>
         <h4>Operation Data Analyst</h4>
         <div className="workList">
-          <dl>Global Wellbore Solution, (Tehran, Iran), Sep 2018 - Sep 2022</dl>
+          <dl>Global Wellbore Solution, Sep 2018 - Sep 2022</dl>
           <dl>
             • Aggregate data from multiple sources within the operation,
             encompassing databases, logs, sensors, and external APIs.
@@ -129,9 +131,7 @@ const AboutPage = () => {
           </dl>
         </div>
         <h4>Operation Coordinator</h4>
-        <dl>
-          Certified Oilfield Rentals, (Kish Island, Iran), Jan 2017 - Mar 2018
-        </dl>
+        <dl>Certified Oilfield Rentals, Jan 2017 - Mar 2018</dl>
         <div className="workList">
           <dl>
             • Ensured high quality and functionality of provided equipment for
