@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(250, 235, 215);
+  background-color: rgb(255, 255, 255);
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -47,12 +47,12 @@ h4 {
 }
 
 nav {
-  border-bottom: 4px solid black;
+  border-bottom: 2px solid black;
   text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
-  background: hsl(34, 81%, 85%);
+  background: rgb(245, 241, 241);
 }
 
 nav ul {
@@ -69,14 +69,14 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: hsl(0, 37%, 35%);
+  color: rgb(78, 107, 133);
   font-weight: bold;
   padding: 24px 32px;
 }
 
 nav a:hover {
-  background: hsl(0, 12%, 27%);
-  color: white;
+  background: rgb(255, 255, 255);
+  color: rgb(173, 56, 56);
 }
 
 #page-body {
@@ -87,11 +87,11 @@ nav a:hover {
 }
 
 footer {
-  border-top: 4px solid black;
+  border-top: 2px solid black;
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: hsl(34, 81%, 85%);
+  background: rgb(245, 241, 241);
   display: flex;
 
   justify-content: space-between;
