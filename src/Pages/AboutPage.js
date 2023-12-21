@@ -96,6 +96,12 @@ const AboutPage = () => {
         <div className="certification">
           <dl>
             •{" "}
+            <a href="https://www.coursera.org/account/accomplishments/verify/UHQXB5CHPJ5G">
+              Build a Full Website using WordPress
+            </a>
+          </dl>
+          <dl>
+            •{" "}
             <a href="https://www.linkedin.com/learning/certificates/e338d4e1e796946f143be54f7c3eb7c4d513cc5b87b5b46bedee7fdc003dbeb9?accountId=2199673&u=2199673&success=true&authUUID=T80Wy04ZQWy1V%2Fk3qCJXgQ%3D%3D">
               JavaScript Essential Training
             </a>
@@ -118,12 +124,42 @@ const AboutPage = () => {
               Hands-On Introduction: ASP.NET Razor Pages
             </a>
           </dl>
-          <dl>• ASP.NET Core: Razor Pages</dl>
-          <dl>• C# Refactoring Tips and Tricks</dl>
-          <dl>• Introduction to Career Skills in Software Development</dl>
-          <dl>• Programming Foundations: Fundamentals</dl>
-          <dl>• Programming Foundations: Beyond the Fundamentals</dl>
-          <dl>• Verified International Academic Qualifications (WES)</dl>
+          <dl>
+            •{" "}
+            <a href="https://www.linkedin.com/learning/certificates/a6166e4bdc58a231c8fae230299b7e13b83cf3ba790d23924d123c68f32e425e?u=2199673">
+              ASP.NET Core: Razor Pages
+            </a>
+          </dl>
+          <dl>
+            •{" "}
+            <a href="https://www.linkedin.com/learning/certificates/1fb24b1216ec7c7ea4a8ed0219d22193b54d6e6523b7a169f12cf33337c06075?u=2199673">
+              C# Refactoring Tips and Tricks
+            </a>
+          </dl>
+          <dl>
+            •{" "}
+            <a href="https://www.linkedin.com/learning/certificates/dffef7e714760ad4549694195fd3fca4a9a005ec127e79a39f7911e8cd39a1f5?u=2199673">
+              Introduction to Career Skills in Software Development
+            </a>
+          </dl>
+          <dl>
+            •{" "}
+            <a href="https://www.linkedin.com/learning/certificates/9c5867796929e8cebc31683ca61d1948e3a5cc1f4c680e1b248a104aa487bacc?u=2199673">
+              Programming Foundations: Fundamentals
+            </a>
+          </dl>
+          <dl>
+            •{" "}
+            <a href="https://www.linkedin.com/learning/certificates/236bc606ca569dd7c235621ae284bbe888891aa1205babaf738f295e30f9bba4?u=2199673">
+              Programming Foundations: Beyond the Fundamentals
+            </a>
+          </dl>
+          <dl>
+            •{" "}
+            <a href="https://www.credly.com/badges/b5ab8dbf-8a0e-4b0f-a20b-9f01d73d0d0e/linked_in_profile">
+              Verified International Academic Qualifications (WES)
+            </a>
+          </dl>
         </div>
         <h3>Work Experience</h3>
         <h4>Perpetual Inventory Clerk</h4>
