@@ -79,6 +79,11 @@ nav a:hover {
   color: rgb(173, 56, 56);
 }
 
+nav a.active {
+  background: rgb(255, 255, 255);
+  color: rgb(173, 56, 56);
+}
+
 #page-body {
   max-width: 1000px;
   margin: auto;

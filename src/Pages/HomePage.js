@@ -28,8 +28,8 @@ const HomePage = () => {
         </p>
         <h3>Discover My Story</h3>
         <p className="welcomeNote">
-          If you're curious to know more about me, head over to the
-          <Link to="/about"> About</Link> page. There, you'll find my resume and
+          If you're curious to know more about me, head over to the{" "}
+          <Link to="/about">About</Link> page. There, you'll find my resume and
           a brief biography that delves into my background and aspirations.
         </p>
         <p className="welcomeNote">
