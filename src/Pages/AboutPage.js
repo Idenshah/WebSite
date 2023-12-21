@@ -94,10 +94,30 @@ const AboutPage = () => {
         <li>Azad University</li>
         <h3>Certificate</h3>
         <div className="certification">
-          <dl>• JavaScript Essential Training</dl>
-          <dl>• React: Creating and Hosting a Full-Stack Site</dl>
-          <dl>• Level Up: PHP</dl>
-          <dl>• Hands-On Introduction: ASP.NET Razor Pages</dl>
+          <dl>
+            •{" "}
+            <a href="https://www.linkedin.com/learning/certificates/e338d4e1e796946f143be54f7c3eb7c4d513cc5b87b5b46bedee7fdc003dbeb9?accountId=2199673&u=2199673&success=true&authUUID=T80Wy04ZQWy1V%2Fk3qCJXgQ%3D%3D">
+              JavaScript Essential Training
+            </a>
+          </dl>
+          <dl>
+            •{" "}
+            <a href="https://www.linkedin.com/learning/certificates/d3acb5ec29d768a4d58c69bbba5d1b278c5a0b8fbc2c46148009b844cddab02e?u=2199673">
+              React: Creating and Hosting a Full-Stack Site
+            </a>
+          </dl>
+          <dl>
+            •{" "}
+            <a href="https://www.linkedin.com/learning/certificates/4776e780b07bca33edc8c1e3bb54cb86b12f4e9bc15dbc573c24b60f30a45206?u=2199673">
+              Level Up: PHP
+            </a>
+          </dl>
+          <dl>
+            •{" "}
+            <a href="https://www.linkedin.com/learning/certificates/62d10978fbf8469091ca3a0c21d44a5c74a23b1b1a65cd7bcb07dffb605ab67f?u=2199673">
+              Hands-On Introduction: ASP.NET Razor Pages
+            </a>
+          </dl>
           <dl>• ASP.NET Core: Razor Pages</dl>
           <dl>• C# Refactoring Tips and Tricks</dl>
           <dl>• Introduction to Career Skills in Software Development</dl>
