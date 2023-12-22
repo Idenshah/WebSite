@@ -7,7 +7,7 @@ const AboutPage = () => {
         <p className="aboutMe">
           On this page, you'll find more about my background and experiences,
           offering insights into the path that led me to the dynamic field of
-          web development.
+          web development.123
         </p>
         <div className="downloadCV">
           <a
