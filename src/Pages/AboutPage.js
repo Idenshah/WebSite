@@ -11,7 +11,9 @@ const AboutPage = () => {
         </p>
         <div className="downloadCV">
           <a
-            href="https://drive.google.com/uc?export=download&id=1YIFFQSsrEwSQyuoTuTiMQXtIqzJbG0R1"
+            href="https://drive.google.com/uc?export=download&id=1YIFFQSsrEwSQyuoTuTiMQXtIqzJbG0R1   
+            
+            `       22"
             download
           >
             <img src="/image/downloadCV.png" alt="CV download link" />
@@ -101,6 +103,15 @@ const AboutPage = () => {
               className="certification-link"
             >
               Build a Full Website using WordPress
+            </a>
+          </dl>
+          <dl>
+            •{" "}
+            <a
+              href="https://www.linkedin.com/learning/certificates/ed1f377cebd40fa40e603b96b1b4c1ae2c59640c98a923cf73f7ee312b7bcc1a?u=2199673"
+              className="certification-link"
+            >
+              Learning the JavaScript Language
             </a>
           </dl>
           <dl>
