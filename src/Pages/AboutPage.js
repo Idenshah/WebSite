@@ -171,6 +171,15 @@ const AboutPage = () => {
           <dl>
             •{" "}
             <a
+              href="https://www.linkedin.com/learning/certificates/65ccc6ba0f3303e974680e696a11441f1e59e9735531354a670ac689334fc965?u=2199673"
+              className="certification-link"
+            >
+              Drupal 9 Essential Training: 1 Introduction and Administration
+            </a>
+          </dl>
+          <dl>
+            •{" "}
+            <a
               href="https://www.linkedin.com/learning/certificates/dffef7e714760ad4549694195fd3fca4a9a005ec127e79a39f7911e8cd39a1f5?u=2199673"
               className="certification-link"
             >
